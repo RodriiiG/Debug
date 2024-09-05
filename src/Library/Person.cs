@@ -42,7 +42,7 @@ namespace Ucu.Poo.Persons
         {
             get
             {
-                return $"{this.Name}{this.FamilyName}";
+                return $"{this.Name} {this.FamilyName}"; // Se le hizo un espacio entre "this.Name" y "this.FamilyName"
             }
         }
 
@@ -66,7 +66,7 @@ namespace Ucu.Poo.Persons
                     age--;
                 }
 
-                return age;
+                return -age; //Se le puso un "-" al age
             }
         }
 
